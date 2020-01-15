@@ -31,7 +31,7 @@ s = "".join(s.split())
 max_product = 0
 
 for i in range(len(s)):
-    if i + 13 > len(s):
+    if i + 13 >= len(s):
         break
     
     product = product_of_string(s[i : i+13])
